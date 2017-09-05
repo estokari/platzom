@@ -1,0 +1,30 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma Platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estokari/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "js"
+  ],
+  "author": "Alberto Corella <alberto.corella@apc-web.com> (https://github.com/estokari)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estokari/platzom/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
